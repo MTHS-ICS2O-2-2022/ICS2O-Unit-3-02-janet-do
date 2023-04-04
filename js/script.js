@@ -13,8 +13,8 @@ function calculate() {
   const length = parseInt(document.getElementById("length").value)
 
   // process
-  const area = length * width * height / 3 
+  const volume = length * width * height / 3 
 
   // output
-  document.getElementById("area").innerHTML = "Area is: " + area + " cm²"
+  document.getElementById("volume").innerHTML = "Volume is: " + volume + " cm³"
 }
