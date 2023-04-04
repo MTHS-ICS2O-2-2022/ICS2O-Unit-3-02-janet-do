@@ -2,15 +2,18 @@
 //
 // Created by: Janet Do
 // Created on: Sep 2020
-// This file generates the area of a triangle
+// This file generates the volume of a pyramid 
+
 "use strict"
+
 function calculate() {
   // input
-  const base = parseInt(document.getElementById("base").value)
+  const width = parseInt(document.getElementById("width").value)
   const height = parseInt(document.getElementById("height").value)
+  const length = parseInt(document.getElementById("length").value)
 
   // process
-  const area = base * height / 2
+  const area = length * width * height / 3 
 
   // output
   document.getElementById("area").innerHTML = "Area is: " + area + " cm²"
